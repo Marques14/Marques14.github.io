@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Blog JH: Desafio de Programação Sobre Listas e Dicionários</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/logo_jh_arredondado.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="blog.html">Blog - JH</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="index.html">Portfólio</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+
+  <!--/ Intro Skew Star /-->
+  <div class="intro intro-single route bg-image" style="background-image: url(img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <h2 class="intro-title mb-4">Desafio de Programação Sobre Listas e Dicionários</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Intro Skew End /-->
+
+  <!--/ Section Blog-Single Star /-->
+  <section class="blog-wrapper sect-pt4" id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="post-box">
+            <div class="post-thumb">
+              <img src="img/foto-desafio-habbo-fiscal-dos-fiscais.png" class="img-fluid" alt="">
+            </div>
+            <div class="post-meta">
+              <h1 class="article-title">Habbo Hotel - Fiscal dos Fiscais</h1>
+              <ul>
+                <li>
+                  <span class="ion-ios-person"></span>
+                  <a href="#">Joab Henrique</a>
+                </li>
+                <li>
+                  <span class="ion-pricetag"></span>
+                  <a href="#">Programação</a>
+                </li>
+                <li>
+                  <span class="ion-ios-location"></span>
+                  <a href="#">26 Out 2024</a>
+                </li>
+              </ul>
+            </div>
+            <div class="article-content">
+              <p>
+                Imagine que você é o responsável por manter a ordem no coração de uma corporação policial dentro do icônico mundo virtual do Habbo Hotel, em um 
+                ambiente onde cada decisão pode ser a linha tênue entre a segurança e o caos total.
+              </p>
+              <p>
+                O ano é 2010, e você é o Fiscal dos Fiscais. O seu trabalho não é só difícil — é vital! Sua missão é <b>documentar cada verificação</b> feita por seus fiscais 
+                para que, se houver qualquer deslize, seu superior possa tomar as devidas providências rapidamente.
+              </p>
+              <p>
+                Com um olhar atento, você guarda as informações em um <b>dicionário</b>, pois são relatórios confidenciais de inteligência. As <b>chaves desse dicionário são os 
+                nomes dos fiscais, e os valores são listas de verificações, cada uma contendo o nome do suposto policial fiscalizado e o resultado da fiscalização</b> (se foi realizada corretamente ou não).
+              </p>
+              <p>
+                A tensão aumenta durante o turno, pois qualquer erro pode significar que um inimigo se esgueirou pela base — e cabe a você garantir que todos estão fazendo seu trabalho de maneira impecável.
+              </p>
+
+              <h2>Input:</h2>
+              <p><b>Ao iniciar o seu trabalho, você deve registrar o nome do primeiro fiscal, podendo conter letras, números e/ou caracteres especiais (afinal, é um nick de um jogo):</b></p>
+              <blockquote class="blockquote">
+                <p class="mb-0">N1CK$F1SC4L</p>
+              </blockquote>
+              <p><b>Em seguida, informe quantos policiais foram fiscalizados pelo fiscal:</b></p>
+              <blockquote class="blockquote">
+                <p class="mb-0">X (número inteiro)</p>
+              </blockquote>
+              <p><b>Depois, colete o nome do primeiro policial fiscalizado:</b></p>
+              <blockquote class="blockquote">
+                <p class="mb-0">N1CK$F1SC4L1Z@D@</p>
+              </blockquote>
+              <p><b>Adiante, informe se a fiscalização foi feita corretamente ou incorretamente:</b></p>
+              <blockquote class="blockquote">
+                <p class="mb-0">CORRETA ou INCORRETA</p>
+              </blockquote>
+              <p><b>Faça os dois últimos passos pela quantidade de policiais fiscalizados, inserindo sempre informações de novas tentativas de entrada na base. Considere que nenhum policial tentará entrar na base mais de uma vez.</b></p>
+              <p><b>Ao fim, caso haja outro fiscal durante o seu turno, repita o processo. Caso não tenha mais nenhum fiscal, encerre o seu turno enviando:</b></p>
+              <blockquote class="blockquote">
+                <p class="mb-0">FIM DO TURNO</p>
+              </blockquote>
+
+              <h2>Output:</h2>
+              <p><b>Quando o sistema for iniciado, uma mensagem de boas-vindas deve ser impressa:</b></p>
+              <blockquote class="blockquote">
+                <p class="mb-0">Ó, Fiscal dos Fiscais, seja bem-vindo(a) ao seu turno!</p>
+              </blockquote>
+              <p><b>Sempre que houver um novo fiscal a ser fiscalizado:</b></p>
+              <blockquote class="blockquote">
+                <p class="mb-0">Qual o fiscal que será fiscalizado agora?</p>
+              </blockquote>
+              <p><b>Sempre que for necessário informar a quantidade de policiais fiscalizados pelo fiscal:</b></p>
+              <blockquote class="blockquote">
+                <p class="mb-0">Quantos (supostos) policiais o fiscal fiscalizou?</p>
+              </blockquote>
+              <p><b>Sempre que for necessário coletar o nome de um policial fiscalizado pelo fiscal:</b></p>
+              <blockquote class="blockquote">
+                <p class="mb-0">Qual o nome do {x}º policial fiscalizado pelo fiscal?</p>
+              </blockquote>
+              <p><b>Sempre que for necessário informar se a fiscalização foi feita corretamente ou incorretamente:</b></p>
+              <blockquote class="blockquote">
+                <p class="mb-0">Qual o resultado desta fiscalização?</p>
+              </blockquote>
+              <p><b>Sempre que o turno for encerrado (pule uma linha para imprimir):</b></p>
+              <blockquote class="blockquote">
+                <p class="mb-0">O meu turno acabou. Agora, vou apresentar os relatórios ao meu chefe.</p>
+              </blockquote>
+              <p><b>Se não houve fiscal para ser fiscalizado (pule uma linha para imprimir):</b></p>
+              <blockquote class="blockquote">
+                <p class="mb-0">Hoje o dia foi tão tranquilo como um esquilo, sem fiscais para serem fiscalizados.</p>
+              </blockquote>
+              <p><b>Quando não houver mais fiscais para serem fiscalizados e houver, ao menos, um fiscal (pule uma linha para imprimir):</b></p>
+              <blockquote class="blockquote">
+                <p class="mb-0">fiscal_1 fiscalizou x supostos policiais, que foram:
+                <br>fiscalizado_1, que foi fiscalizado corretamente.
+                <br>fiscalizado_2, que foi fiscalizado incorretamente.
+                <br>fiscalizado_n, que foi fiscalizado corretamente.
+                <br><br>fiscal_2 teve um turno de boa na lagoa, sem supostos policiais para serem fiscalizados.
+                <br><br>fiscal_n fiscalizou y supostos policiais, que foram:
+                <br>[...]</p>
+              </blockquote>
+              <p><b>Quando todas as informações forem impressas corretamente (pule uma linha para imprimir):</b></p>
+              <blockquote class="blockquote">
+                <p class="mb-0">Ufa! Mais um dia finalizado sem o meu chefe me dar um pé no Habbo.</p>
+              </blockquote>
+
+              <h2>Exemplo - Caso 1:</h2>
+<h2>Input:</h2>
+<blockquote class="blockquote">
+  <p class="mb-0">
+    S4f1R4<br>
+    3<br>
+    4nt0niO<br>
+    CORRETA<br>
+    MaRi0<br>
+    CORRETA<br>
+    J3zu1n0<br>
+    CORRETA<br>
+    Alc1m0n3<br>
+    0<br>
+    FIM DO TURNO
+  </p>
+</blockquote>
+<h2>Output:</h2>
+<blockquote class="blockquote">
+  <p class="mb-0">
+    Ó, Fiscal dos Fiscais, seja bem-vindo(a) ao seu turno!<br>
+    Qual o fiscal que será fiscalizado agora?<br>
+    Quantos (supostos) policiais o fiscal fiscalizou?<br>
+    Qual o nome do 1º policial fiscalizado pelo fiscal?<br>
+    Qual o resultado desta fiscalização?<br>
+    Qual o nome do 2º policial fiscalizado pelo fiscal?<br>
+    Qual o resultado desta fiscalização?<br>
+    Qual o nome do 3º policial fiscalizado pelo fiscal?<br>
+    Qual o resultado desta fiscalização?<br>
+    Qual o fiscal que será fiscalizado agora?<br>
+    Quantos (supostos) policiais o fiscal fiscalizou?<br>
+    Qual o fiscal que será fiscalizado agora?<br><br>
+    O meu turno acabou. Agora, vou apresentar os relatórios ao meu chefe.<br><br>
+    S4f1R4 fiscalizou 3 supostos policiais, que foram:<br>
+    4nt0niO, que foi fiscalizado corretamente.<br>
+    MaRi0, que foi fiscalizado corretamente.<br>
+    J3zu1n0, que foi fiscalizado corretamente.<br><br>
+    Alc1m0n3 teve um turno de boa na lagoa, sem supostos policiais para serem fiscalizados.<br><br>
+    Ufa! Mais um dia finalizado sem o meu chefe me dar um pé no Habbo.
+  </p>
+</blockquote>
+
+<h2>Exemplo - Caso 2:</h2>
+<h2>Input:</h2>
+<blockquote class="blockquote">
+  <p class="mb-0">FIM DO TURNO</p>
+</blockquote>
+<h2>Output:</h2>
+<blockquote class="blockquote">
+  <p class="mb-0">
+    Ó, Fiscal dos Fiscais, seja bem-vindo(a) ao seu turno!<br>
+    Qual o fiscal que será fiscalizado agora?<br><br>
+    O meu turno acabou. Agora, vou apresentar os relatórios ao meu chefe.<br><br>
+    Hoje o dia foi tão tranquilo como um esquilo, sem fiscais para serem fiscalizados.<br><br>
+    Ufa! Mais um dia finalizado sem o meu chefe me dar um pé no Habbo.
+  </p>
+</blockquote>
+
+<h2>Exemplo - Caso 3:</h2>
+<h2>Input:</h2>
+<blockquote class="blockquote">
+  <p class="mb-0">
+    V4ss0ur4<br>
+    2<br>
+    Qu1m1co<br>
+    INCORRETA<br>
+    T3res1na<br>
+    CORRETA<br>
+    Barr0<br>
+    1<br>
+    ALDEIA<br>
+    CORRETA<br>
+    N4SS4U<br>
+    2<br>
+    NAT4L<br>
+    INCORRETA<br>
+    M4TH<br>
+    INCORRETA<br>
+    FIM DO TURNO
+  </p>
+</blockquote>
+<h2>Output:</h2>
+<blockquote class="blockquote">
+  <p class="mb-0">
+    Ó, Fiscal dos Fiscais, seja bem-vindo(a) ao seu turno!<br>
+    Qual o fiscal que será fiscalizado agora?<br>
+    Quantos (supostos) policiais o fiscal fiscalizou?<br>
+    Qual o nome do 1º policial fiscalizado pelo fiscal?<br>
+    Qual o resultado desta fiscalização?<br>
+    Qual o nome do 2º policial fiscalizado pelo fiscal?<br>
+    Qual o resultado desta fiscalização?<br>
+    Qual o fiscal que será fiscalizado agora?<br>
+    Quantos (supostos) policiais o fiscal fiscalizou?<br>
+    Qual o nome do 1º policial fiscalizado pelo fiscal?<br>
+    Qual o resultado desta fiscalização?<br>
+    Qual o fiscal que será fiscalizado agora?<br>
+    Quantos (supostos) policiais o fiscal fiscalizou?<br>
+    Qual o nome do 1º policial fiscalizado pelo fiscal?<br>
+    Qual o resultado desta fiscalização?<br>
+    Qual o nome do 2º policial fiscalizado pelo fiscal?<br>
+    Qual o resultado desta fiscalização?<br>
+    Qual o fiscal que será fiscalizado agora?<br><br>
+    O meu turno acabou. Agora, vou apresentar os relatórios ao meu chefe.<br><br>
+    V4ss0ur4 fiscalizou 2 supostos policiais, que foram:<br>
+    Qu1m1co, que foi fiscalizado incorretamente.<br>
+    T3res1na, que foi fiscalizado corretamente.<br><br>
+    Barr0 fiscalizou 1 supostos policiais, que foram:<br>
+    ALDEIA, que foi fiscalizado corretamente.<br><br>
+    N4SS4U fiscalizou 2 supostos policiais, que foram:<br>
+    NAT4L, que foi fiscalizado incorretamente.<br>
+    M4TH, que foi fiscalizado incorretamente.<br><br>
+    Ufa! Mais um dia finalizado sem o meu chefe me dar um pé no Habbo.
+  </p>
+</blockquote>
+
+<h2>Exemplo - Caso 4:</h2>
+<h2>Input:</h2>
+<blockquote class="blockquote">
+  <p class="mb-0">
+    4nJol1n4<br>
+    2<br>
+    ST3f4n<br>
+    CORRETA<br>
+    AL3XS4NDRO<br>
+    CORRETA<br>
+    4nJol1n4<br>
+    2<br>
+    GUST4V0<br>
+    CORRETA<br>
+    LUC4S<br>
+    INCORRETA<br>
+    FIM DO TURNO
+  </p>
+</blockquote>
+<h2>Output:</h2>
+<blockquote class="blockquote">
+  <p class="mb-0">
+    Ó, Fiscal dos Fiscais, seja bem-vindo(a) ao seu turno!<br>
+    Qual o fiscal que será fiscalizado agora?<br>
+    Quantos (supostos) policiais o fiscal fiscalizou?<br>
+    Qual o nome do 1º policial fiscalizado pelo fiscal?<br>
+    Qual o resultado desta fiscalização?<br>
+    Qual o nome do 2º policial fiscalizado pelo fiscal?<br>
+    Qual o resultado desta fiscalização?<br>
+    Qual o fiscal que será fiscalizado agora?<br>
+    Quantos (supostos) policiais o fiscal fiscalizou?<br>
+    Qual o nome do 1º policial fiscalizado pelo fiscal?<br>
+    Qual o resultado desta fiscalização?<br>
+    Qual o nome do 2º policial fiscalizado pelo fiscal?<br>
+    Qual o resultado desta fiscalização?<br>
+    Qual o fiscal que será fiscalizado agora?<br><br>
+    O meu turno acabou. Agora, vou apresentar os relatórios ao meu chefe.<br><br>
+    4nJol1n4 fiscalizou 4 supostos policiais, que foram:<br>
+    ST3f4n, que foi fiscalizado corretamente.<br>
+    AL3XS4NDRO, que foi fiscalizado corretamente.<br>
+    GUST4V0, que foi fiscalizado corretamente.<br>
+    LUC4S, que foi fiscalizado incorretamente.<br><br>
+    Ufa! Mais um dia finalizado sem o meu chefe me dar um pé no Habbo.
+  </p>
+</blockquote>
+
+<h2>Solução Possível (em Python):</h2>
+<blockquote class="blockquote">
+  <p class="mb-0">
+    turno = True<br>
+    infos_fiscais = {}<br><br>
+    
+    print('Ó, Fiscal dos Fiscais, seja bem-vindo(a) ao seu turno!')<br><br>
+    
+    while turno:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;print('Qual o fiscal que será fiscalizado agora?')<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;fiscal = input()<br><br>
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;if fiscal not in infos_fiscais.keys() and fiscal != 'FIM DO TURNO':<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;infos_fiscais[fiscal] = []<br><br>
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;if fiscal != 'FIM DO TURNO':<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('Quantos (supostos) policiais o fiscal fiscalizou?')<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;qtd_policiais = int(input())<br><br>
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for ordem in range(0, qtd_policiais):<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(f'Qual o nome do {len(infos_fiscais[fiscal]) + 1}º policial fiscalizado pelo fiscal?')<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nome_policial = input()<br><br>
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('Qual o resultado desta fiscalização?')<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resultado = input()<br><br>
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;infos_fiscais[fiscal].append([nome_policial, resultado])<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;else:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;turno = False<br><br>
+    
+    print('\nO meu turno acabou. Agora, vou apresentar os relatórios ao meu chefe.')<br><br>
+    
+    if len(infos_fiscais) == 0:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;print('\nHoje o dia foi tão tranquilo como um esquilo, sem fiscais para serem fiscalizados.')<br>
+    else:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;for fiscal in infos_fiscais.keys():<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if len(infos_fiscais[fiscal]) == 0:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(f'\n{fiscal} teve um turno de boa na lagoa, sem supostos policiais para serem fiscalizados.')<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(f'\n{fiscal} fiscalizou {len(infos_fiscais[fiscal])} supostos policiais, que foram:')<br><br>
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for ordem_fiscalizado in range (0, len(infos_fiscais[fiscal])):<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(f'{infos_fiscais[fiscal][ordem_fiscalizado][0]}, que foi fiscalizado', end=' ')<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if infos_fiscais[fiscal][ordem_fiscalizado][1] == 'CORRETA':<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('corretamente.')<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('incorretamente.')<br><br>
+    
+    print('\nUfa! Mais um dia finalizado sem o meu chefe me dar um pé no Habbo.')
+  </p>
+</blockquote>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Blog-Single End /-->
+
+  <!--/ Section Contact-Footer Star /-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+                <p class="copyright">&copy; Copyright <strong>Joab Henrique</strong>.<br>Todos os direitos reservados.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!--/ Section Contact-footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
